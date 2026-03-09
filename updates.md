@@ -174,3 +174,12 @@
 - Implemented full reset behavior for draft/request/result areas.
 - Added button layout/style updates for two-button action row.
 
+
+## 2026-03-09 14:50:46 +09:00
+- Renamed reset control label from 다시 시작 to 리셋.
+
+
+## 2026-03-09 14:53:27 +09:00
+- Fixed reset button regression: re-added button in HTML and reconnected JS safely.
+- Added null-safe binding for reset handler to prevent runtime errors.
+

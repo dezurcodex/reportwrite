@@ -1,7 +1,8 @@
 ﻿const doc = {
   draftText: document.getElementById("draftText"),
   requestNote: document.getElementById("requestNote"),
-  section1Result: document.getElementById("section1Result")
+  section1Result: document.getElementById("section1Result"),
+  resetAll: document.getElementById("resetAll")
 };
 
 function safe(v) {
@@ -103,6 +104,7 @@ document.addEventListener("click", (e) => {
 });
 
 document.getElementById("runSection1").addEventListener("click", renderSection1);
-doc.resetAll.addEventListener("click", resetAll);
+if (doc.resetAll) doc.resetAll.addEventListener("click", resetAll);
+
 
 
