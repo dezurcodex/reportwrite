@@ -15,38 +15,13 @@
     <main class="layout one-col">
       <section class="panel">
         <h2>보고용 문구 다듬기</h2>
-        <p class="hint">
-          초안/요청사항/문체/기관 기준세트를 반영해 전문가 합의 결과 3안을 제공합니다.
-        </p>
+        <p class="hint">초안과 요청사항을 반영해 합의 결과 3안을 개조식으로 제공합니다.</p>
 
         <label for="draftText">문구 초안</label>
         <textarea id="draftText" placeholder="예: 본 사업은 국민 편익 제고를 위해 추진함"></textarea>
 
         <label for="requestNote">요청사항</label>
         <textarea id="requestNote" placeholder="예: 결재라인 설득이 가능하도록 책임주체와 일정이 보이게 작성"></textarea>
-
-        <label for="stylePreset">문체 프리셋</label>
-        <select id="stylePreset">
-          <option value="balanced">균형형(기본)</option>
-          <option value="executive">장관/임원 보고형</option>
-          <option value="approval">내부 결재형</option>
-          <option value="audit">감사 대응형</option>
-        </select>
-
-        <label for="orgPreset">기관별 기준세트 프리셋</label>
-        <select id="orgPreset">
-          <option value="msit">과기정통부형</option>
-          <option value="public">공공기관형</option>
-          <option value="local">지자체형</option>
-          <option value="common">범용형</option>
-        </select>
-
-        <label for="outputFormat">강제 출력 형식</label>
-        <select id="outputFormat">
-          <option value="list" selected>개조식 고정(기본)</option>
-          <option value="prose">서술형 고정</option>
-          <option value="auto">초안 자동 감지</option>
-        </select>
 
         <div class="actions one">
           <button id="runSection1">합의 결과 생성</button>
@@ -59,3 +34,4 @@
     <script src="./app.js"></script>
   </body>
 </html>
+

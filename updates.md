@@ -128,3 +128,49 @@
 - Removed extra header/status text from result area.
 - Removed direct request-text echo from generated results/reasons.
 
+
+## 2026-03-09 13:55:30 +09:00
+- Enforced prose-preserving rule: prose-like drafts now always output prose.
+- Removed unwanted phrase pattern from list/prose templates.
+- Added public-document draft validation with blocking error message when format is not eligible.
+
+
+## 2026-03-09 13:57:17 +09:00
+- Added profanity filter check for draft/request inputs.
+- Added blocking error message when profanity is detected.
+
+
+## 2026-03-09 14:02:50 +09:00
+- Added explicit auto-judgment rationale when request field is empty.
+- Empty-request mode now explains that recommendations are based on default public-report quality principles.
+
+
+## 2026-03-09 14:13:20 +09:00
+- Validation rule changed: block only when draft is neither public-document style nor list style.
+- New error condition now allows progress if input is list-form even when non-public wording is detected.
+
+
+## 2026-03-09 14:16:02 +09:00
+- Removed public-document-style validation from blocking conditions.
+- Block condition now checks only whether input is list-style.
+
+
+## 2026-03-09 14:20:08 +09:00
+- Removed all blocking exception checks from draft processing flow.
+- Generation now proceeds for any input without validation errors.
+
+
+## 2026-03-09 14:23:48 +09:00
+- Forced output to list-style only (no prose output path).
+- Removed style preset, organization preset, and forced-output-format features from UI and logic.
+
+
+## 2026-03-09 14:26:02 +09:00
+- Removed 요청사항 반영 방향 lines from result bullet outputs.
+
+
+## 2026-03-09 14:30:13 +09:00
+- Added 다시 시작 button.
+- Implemented full reset behavior for draft/request/result areas.
+- Added button layout/style updates for two-button action row.
+

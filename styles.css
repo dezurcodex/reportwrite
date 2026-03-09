@@ -162,3 +162,8 @@ p { margin: 0.45rem 0; }
 
 .phrase-text { white-space: pre-line; }
 
+
+.actions.two { grid-template-columns: 1fr 1fr; }
+
+button.ghost { background:#eef3fb; color:#2a4f82; border:1px solid #c7d4e4; }
+
